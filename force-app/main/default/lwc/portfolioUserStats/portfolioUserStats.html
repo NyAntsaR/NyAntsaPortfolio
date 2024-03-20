@@ -1,0 +1,28 @@
+<template>
+    <lightning-layout multiple-rows>
+        <lightning-layout-item size="12" medium-device-size="4" large-device-size="3">
+            <img src={trailheadRandBadge} alt="badge-rank"/>
+        </lightning-layout-item>
+
+        <lightning-layout-item size="12" medium-device-size="4" large-device-size="3">
+            <div class="stat-padding">
+                <h3>Badges</h3>
+                <p>{badges}</p>
+            </div>
+        </lightning-layout-item>
+
+        <lightning-layout-item size="12" medium-device-size="4" large-device-size="3">
+            <div class="stat-padding">
+                <h3>Points</h3>
+                <p>{points}</p>
+            </div>
+        </lightning-layout-item>
+
+        <lightning-layout-item size="12" medium-device-size="4" large-device-size="3">
+            <div class="stat-padding">
+                <h3>Trails</h3>
+                <p>{trails}</p>
+            </div>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>

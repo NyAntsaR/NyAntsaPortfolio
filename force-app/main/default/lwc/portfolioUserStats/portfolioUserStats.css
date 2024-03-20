@@ -1,0 +1,18 @@
+h3 {
+    font-size: 13px;
+    font-weight: 700;
+    color:#fff;
+}
+
+p {
+    font-size: 18px;
+    color:#FF533D;
+}
+
+img {
+    height: 90px;
+}
+
+.stat-padding {
+    padding-top: 20px;
+}

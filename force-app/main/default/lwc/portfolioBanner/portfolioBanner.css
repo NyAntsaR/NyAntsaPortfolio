@@ -1,0 +1,47 @@
+.banner {
+    display: flex;
+    background: #f5f5f5;
+    min-height: 300px;
+    padding: 32px 16px;
+    color: #0F1626;
+}
+
+.left-column {
+    flex: 2; /* Each column takes up equal space */
+    margin-left: 10px; /* Add some spacing between columns */
+    text-align: right;
+    margin: auto;
+}
+
+.right-column {
+    flex: 1; /* Each column takes up equal space */
+    margin-left: 10px; 
+}
+
+.summary {
+    margin-top: 10px;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+.name {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.designation {
+    font-size: larger;
+    color: #8d8988;
+    font-weight: bold;
+}
+
+.location {
+    font-style: italic;
+}
+
+a {
+    color: #0F1626;
+    font-weight: 900;
+}
+
+

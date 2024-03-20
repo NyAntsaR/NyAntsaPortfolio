@@ -1,0 +1,29 @@
+<template>
+    <div class="banner">
+        <div class="left-column">
+            <div class="name">{fullName}</div>
+            <div class="designation">{designation}</div>
+            <div class="location">{location}</div>
+            <div class="links">
+                <p>
+                    <a href={linkedin}>LinkedIN</a> | 
+                    <a href={trailhead}>Trailhead</a>
+                </p>
+            </div>
+            <div class="summary">
+                <p>{summary}</p>
+            </div>
+            <div class="download-button">
+                <lightning-button  
+                    label="Download Resume" 
+                    title="Download" 
+                    onclick={handleDownload}
+                    icon-name="action:download">
+                </lightning-button>
+            </div>
+        </div>
+        <div class="right-column">
+            <img src={userPic} class="profile-pic" />
+        </div> 
+    </div>
+</template>
