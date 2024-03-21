@@ -1,0 +1,28 @@
+h2 {
+    background: #0F1626;
+    color: #FFF;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+img {
+    height: 60px;
+    margin-right: 16px;
+}
+
+.cert-box {
+    margin-bottom: 5px;
+    padding: 12px;
+    background: #AB987A;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+span {
+    font-size: large;
+    font-weight: bold;
+}

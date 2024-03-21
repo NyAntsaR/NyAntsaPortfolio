@@ -1,14 +1,22 @@
 <template>
-    <div>
+    <div class="portfolioTabsWrapper">
         <lightning-tabset variant="scoped">
             <lightning-tab label="Certifications">
-                <c-portfolio-certifications-tab
-                    record-id = {recordId}>
-                </c-portfolio-certifications-tab>
+                <template if:true={recordId}>
+                    <c-portfolio-certifications-tab
+                        record-id = {recordId}>
+                    </c-portfolio-certifications-tab>
+                </template>
             </lightning-tab>
+
             <lightning-tab label="Work Experience">
-                Three Content !
+                <template if:true={recordId}>
+                    <c-portfolio-work-experience-tab
+                        record-id = {recordId}>
+                    </c-portfolio-work-experience-tab>
+                </template>  
             </lightning-tab>
+
             <lightning-tab label="Personal Projects">
                 Three Content !
             </lightning-tab>
