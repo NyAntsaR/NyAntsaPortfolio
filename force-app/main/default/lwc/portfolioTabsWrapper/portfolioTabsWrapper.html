@@ -24,7 +24,9 @@
                 Three Content !
             </lightning-tab>
             <lightning-tab label="Education">
-                Three Content !
+                <template if:true={recordId}>
+                    <c-portfolio-education-tab record-id= {recordId}></c-portfolio-education-tab>
+                </template>
             </lightning-tab>
             <lightning-tab label="Other">
                 Three Content !
