@@ -1,0 +1,36 @@
+:host() {
+    --light-blue:#72A0C1;
+    --light-wrapper:#F0F8FF;
+    --light-white:#fafafa;
+    --padding-16: 16px;
+    text-align: center;  
+}
+
+.app {
+    background-color: #eec0c8;
+    background-size: 100vh;
+}
+
+.box {
+    background: var(--light-blue);
+    color: var(--light-white);
+    max-width: 420px;
+    margin: auto;
+    padding:var(--padding-16);
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.form-wrapper {
+    background-color: var(--light-wrapper);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+lightning-input {
+    color: var(--light-blue);
+}
