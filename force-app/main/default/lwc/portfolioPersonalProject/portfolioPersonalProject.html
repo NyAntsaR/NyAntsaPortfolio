@@ -1,0 +1,14 @@
+<template>
+    <lightning-layout>
+        <template for:each={projects} for:item="project">
+            <lightning-layout-item key={project.name} size="12" small-device-size="6" medium-device-size="4" large-device-size="3">
+                <div class="card">
+                    <a href={project.link} alt="bmi-calculator">
+                        <img src={project.img} alt="BMI Calculator" style="width:100%">
+                        <div class="bottom">{project.name}</div>
+                    </a>
+                  </div>
+            </lightning-layout-item>
+        </template>
+    </lightning-layout>
+</template>

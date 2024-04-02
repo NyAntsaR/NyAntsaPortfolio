@@ -18,18 +18,17 @@
             </lightning-tab>
 
             <lightning-tab label="Personal Projects">
-                Three Content !
+                <template if:true={recordId}>
+                    <c-portfolio-personal-project
+                        record-id = {recordId}>
+                    </c-portfolio-personal-project>
+                </template>  
             </lightning-tab>
-            <lightning-tab label="Skills">
-                Three Content !
-            </lightning-tab>
+
             <lightning-tab label="Education">
                 <template if:true={recordId}>
                     <c-portfolio-education-tab record-id= {recordId}></c-portfolio-education-tab>
                 </template>
-            </lightning-tab>
-            <lightning-tab label="Other">
-                Three Content !
             </lightning-tab>
         </lightning-tabset>
     </div>
